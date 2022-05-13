@@ -137,6 +137,13 @@ hdfs namenode -format
 
 ./start-dfs.sh
 
+if it not start than do following after  -  hdfs namenode -format
+
+~/hadoop-3.2.3/sbin/
+cd ~/hadoop-3.2.3/sbin
+ls -lre or ltr 
+./start-dfs.sh
+
 try to move a local file to hdfs by the method shown in video
 
 
